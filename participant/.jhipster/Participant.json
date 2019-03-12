@@ -1,0 +1,33 @@
+{
+    "name": "Participant",
+    "fields": [
+        {
+            "fieldName": "idMembre",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "idSoiree",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "etatParticipation",
+            "fieldType": "EtatParticipation",
+            "fieldValues": "OUI,NON,PEUTETRE"
+        },
+        {
+            "fieldName": "avis",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190312134208",
+    "entityTableName": "participant",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "participant",
+    "applications": "*",
+    "microserviceName": "participant"
+}

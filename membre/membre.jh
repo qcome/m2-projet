@@ -1,0 +1,10 @@
+entity Membre{
+	id Long
+    nom String
+    prenom String
+    email String
+    telephone String
+    ville String
+}
+
+

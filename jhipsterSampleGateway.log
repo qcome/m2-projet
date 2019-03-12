@@ -1,0 +1,437 @@
+2019-03-12 14:12:48.022  INFO 16926 --- [restartedMain] i.g.j.sample.JhipsterSampleGatewayApp    : The following profiles are active: swagger,dev
+2019-03-12 14:12:49.141 DEBUG 16926 --- [restartedMain] i.g.j.sample.config.AsyncConfiguration   : Creating Async Task Executor
+2019-03-12 14:12:49.913  WARN 16926 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-12 14:12:50.416 DEBUG 16926 --- [restartedMain] i.g.j.sample.config.CacheConfiguration   : Configuring Hazelcast
+2019-03-12 14:12:50.456 DEBUG 16926 --- [restartedMain] i.g.j.sample.config.CacheConfiguration   : Configuring Hazelcast clustering for instanceId: jhipstersamplegateway
+2019-03-12 14:12:50.457 DEBUG 16926 --- [restartedMain] i.g.j.sample.config.CacheConfiguration   : Application is running with the "dev" profile, Hazelcast cluster will only work with localhost instances
+2019-03-12 14:12:50.508  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-12 14:12:50.587  INFO 16926 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-12 14:12:50.587  INFO 16926 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-12 14:12:50.646  INFO 16926 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-12 14:12:50.647  INFO 16926 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-12 14:12:50.751  INFO 16926 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:12:50.761  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-12 14:12:50.761  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-12 14:12:50.761  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-12 14:12:50.761  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-12 14:12:50.762  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-12 14:12:50.762  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-12 14:12:50.762  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-12 14:12:50.897  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-12 14:12:50.898  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2019-03-12 14:12:50.900  INFO 16926 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2019-03-12 14:12:50.902  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1552396370901 with initial instances count: 2
+2019-03-12 14:12:50.927  INFO 16926 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [3.9.4] Picked [127.0.0.1]:13781, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=13781], bind any local is true
+2019-03-12 14:12:50.932  INFO 16926 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13781 [dev] [3.9.4] Hazelcast 3.9.4 (20180420 - b8001d5) starting at [127.0.0.1]:13781
+2019-03-12 14:12:50.932  INFO 16926 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13781 [dev] [3.9.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+2019-03-12 14:12:50.932  INFO 16926 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13781 [dev] [3.9.4] Configured Hazelcast Serialization version: 1
+2019-03-12 14:12:51.037  INFO 16926 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [127.0.0.1]:13781 [dev] [3.9.4] Backpressure is disabled
+2019-03-12 14:12:51.366  INFO 16926 --- [restartedMain] com.hazelcast.instance.Node              : [127.0.0.1]:13781 [dev] [3.9.4] Creating TcpIpJoiner
+2019-03-12 14:12:51.423  INFO 16926 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [127.0.0.1]:13781 [dev] [3.9.4] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2019-03-12 14:12:51.424  INFO 16926 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [127.0.0.1]:13781 [dev] [3.9.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2019-03-12 14:12:51.430  INFO 16926 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13781 [dev] [3.9.4] [127.0.0.1]:13781 is STARTING
+2019-03-12 14:12:51.436  INFO 16926 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13781 [dev] [3.9.4] Cluster version set to 3.9
+2019-03-12 14:12:51.437  INFO 16926 --- [restartedMain] c.h.internal.cluster.ClusterService      : [127.0.0.1]:13781 [dev] [3.9.4] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:13781 - 81f07b46-61a6-4541-8a71-52700b895563 this
+]
+
+2019-03-12 14:12:51.447  INFO 16926 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13781 [dev] [3.9.4] [127.0.0.1]:13781 is STARTED
+2019-03-12 14:12:51.460 DEBUG 16926 --- [restartedMain] i.g.j.sample.config.CacheConfiguration   : Starting HazelcastCacheManager
+2019-03-12 14:12:51.600 DEBUG 16926 --- [restartedMain] i.g.j.s.config.LiquibaseConfiguration    : Configuring Liquibase
+2019-03-12 14:12:51.663  WARN 16926 --- [jhipster-sample-gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2019-03-12 14:12:52.118  INFO 16926 --- [restartedMain] c.h.h.HazelcastCacheRegionFactory        : Starting up HazelcastCacheRegionFactory
+2019-03-12 14:12:52.119  INFO 16926 --- [restartedMain] c.h.h.i.IHazelcastInstanceFactory        : Using existing HazelcastInstance [jhipsterSampleGateway].
+2019-03-12 14:12:52.138 DEBUG 16926 --- [jhipster-sample-gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 475 ms
+2019-03-12 14:12:52.896 DEBUG 16926 --- [restartedMain] i.g.j.sample.config.WebConfigurer        : Registering CORS filter
+2019-03-12 14:12:52.976  INFO 16926 --- [restartedMain] i.g.j.sample.config.WebConfigurer        : Web application configuration, using profiles: swagger
+2019-03-12 14:12:52.976 DEBUG 16926 --- [restartedMain] i.g.j.sample.config.WebConfigurer        : Initialize H2 console
+2019-03-12 14:12:52.978  INFO 16926 --- [restartedMain] i.g.j.sample.config.WebConfigurer        : Web application fully configured
+2019-03-12 14:12:53.130 DEBUG 16926 --- [restartedMain] i.g.j.sample.security.jwt.TokenProvider  : Using a Base64-encoded JWT secret key
+2019-03-12 14:12:54.435 DEBUG 16926 --- [restartedMain] i.g.j.s.config.DatabaseConfiguration     : H2 database is available on port 18080
+2019-03-12 14:12:54.625  WARN 16926 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-12 14:12:54.942 DEBUG 16926 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2019-03-12 14:12:54.948 DEBUG 16926 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 6 ms
+2019-03-12 14:12:55.156  INFO 16926 --- [restartedMain] c.h.i.p.impl.PartitionStateManager       : [127.0.0.1]:13781 [dev] [3.9.4] Initializing cluster partition table arrangement...
+2019-03-12 14:12:55.654  INFO 16926 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1552396375654, current=UP, previous=STARTING]
+2019-03-12 14:12:55.655  INFO 16926 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_JHIPSTERSAMPLEGATEWAY/jhipstersamplegateway:6c2d4248f9155e90d7e9a12feb44db69: registering service...
+2019-03-12 14:12:55.732  INFO 16926 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_JHIPSTERSAMPLEGATEWAY/jhipstersamplegateway:6c2d4248f9155e90d7e9a12feb44db69 - registration status: 204
+2019-03-12 14:12:55.850  INFO 16926 --- [restartedMain] i.g.j.sample.JhipsterSampleGatewayApp    : Started JhipsterSampleGatewayApp in 9.514 seconds (JVM running for 9.966)
+2019-03-12 14:12:55.856  INFO 16926 --- [restartedMain] i.g.j.sample.JhipsterSampleGatewayApp    : 
+----------------------------------------------------------
+	Application 'jhipsterSampleGateway' is running! Access URLs:
+	Local: 		http://localhost:8080/
+	External: 	http://127.0.1.1:8080/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2019-03-12 14:12:55.856  INFO 16926 --- [restartedMain] i.g.j.sample.JhipsterSampleGatewayApp    : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2019-03-12 14:13:04.380 DEBUG 16926 --- [XNIO-2 task-5] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.repository.CustomAuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=2019-03-12T13:13:04.373Z, principal=anonymousUser, type=AUTHORIZATION_FAILURE, data={details=org.springframework.security.web.authentication.WebAuthenticationDetails@957e: RemoteIpAddress: 127.0.0.1; SessionId: null, type=org.springframework.security.access.AccessDeniedException, message=Access is denied}]]
+2019-03-12 14:13:04.382 DEBUG 16926 --- [XNIO-2 task-5] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.repository.CustomAuditEventRepository.add() with result = null
+2019-03-12 14:13:04.389  WARN 16926 --- [XNIO-2 task-5] o.z.problem.spring.common.AdviceTrait    : Unauthorized: Full authentication is required to access this resource
+2019-03-12 14:13:04.409  WARN 16926 --- [XNIO-2 task-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by handler execution: org.springframework.security.authentication.InsufficientAuthenticationException: Full authentication is required to access this resource
+2019-03-12 14:13:14.921 DEBUG 16926 --- [XNIO-2 task-7] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.UserJWTController.authorize() with argument[s] = [LoginVM{username='admin', rememberMe=null}]
+2019-03-12 14:13:14.995 DEBUG 16926 --- [XNIO-2 task-7] i.g.j.s.s.DomainUserDetailsService       : Authenticating admin
+2019-03-12 14:13:15.181 DEBUG 16926 --- [XNIO-2 task-7] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.repository.CustomAuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=2019-03-12T13:13:15.180Z, principal=admin, type=AUTHENTICATION_SUCCESS, data={}]]
+2019-03-12 14:13:15.193 DEBUG 16926 --- [XNIO-2 task-7] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.repository.CustomAuditEventRepository.add() with result = null
+2019-03-12 14:13:15.219 DEBUG 16926 --- [XNIO-2 task-7] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.UserJWTController.authorize() with result = <200 OK,io.github.jhipster.sample.web.rest.UserJWTController$JWTToken@6a88f91a,{Authorization=[Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU1MjQ4Mjc5NX0.8jI2pzumQ31p1eTH_oq6_7enQJDlwuV1rY-Lw8BAc9ZhnKlAiMrtScLW9-PeyG7wMaM5aYd3XSSxBDewluqRpA]}>
+2019-03-12 14:13:15.232 DEBUG 16926 --- [XNIO-2 task-8] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:13:15.236 DEBUG 16926 --- [XNIO-2 task-8] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:13:15.242 DEBUG 16926 --- [XNIO-2 task-8] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:13:15.243 DEBUG 16926 --- [XNIO-2 task-8] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:13:19.157 DEBUG 16926 --- [XNIO-2 task-30] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:13:19.548 DEBUG 16926 --- [XNIO-2 task-30] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:15:59.666 DEBUG 16926 --- [XNIO-2 task-40] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:15:59.667 DEBUG 16926 --- [XNIO-2 task-40] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:15:59.668 DEBUG 16926 --- [XNIO-2 task-40] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:15:59.668 DEBUG 16926 --- [XNIO-2 task-40] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:16:01.308 DEBUG 16926 --- [XNIO-2 task-63] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:16:01.453 DEBUG 16926 --- [XNIO-2 task-63] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:17:08.186 DEBUG 16926 --- [XNIO-2 task-13] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:17:08.187 DEBUG 16926 --- [XNIO-2 task-13] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:17:08.188 DEBUG 16926 --- [XNIO-2 task-13] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:17:08.188 DEBUG 16926 --- [XNIO-2 task-13] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:17:16.365 DEBUG 16926 --- [XNIO-2 task-32] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:17:16.378 DEBUG 16926 --- [XNIO-2 task-32] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:17:50.763  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:19:11.539 DEBUG 16926 --- [XNIO-2 task-36] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /evenement/v2/api-docs, as no access control policy has been set up for service: evenement
+2019-03-12 14:19:11.716 DEBUG 16926 --- [XNIO-2 task-36] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /evenement
+2019-03-12 14:19:20.084 DEBUG 16926 --- [XNIO-2 task-35] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:19:20.091 DEBUG 16926 --- [XNIO-2 task-35] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:19:51.450 DEBUG 16926 --- [XNIO-2 task-39] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:19:56.895 DEBUG 16926 --- [XNIO-2 task-40] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:15.583 DEBUG 16926 --- [XNIO-2 task-41] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:24.028 DEBUG 16926 --- [XNIO-2 task-42] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:24.525 DEBUG 16926 --- [XNIO-2 task-43] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:24.831 DEBUG 16926 --- [XNIO-2 task-46] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:24.951 DEBUG 16926 --- [XNIO-2 task-45] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:25.151 DEBUG 16926 --- [XNIO-2 task-47] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:25.348 DEBUG 16926 --- [XNIO-2 task-44] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:25.530 DEBUG 16926 --- [XNIO-2 task-49] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:25.727 DEBUG 16926 --- [XNIO-2 task-52] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:25.853 DEBUG 16926 --- [XNIO-2 task-51] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:20:29.137 DEBUG 16926 --- [XNIO-2 task-48] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:21:33.898 DEBUG 16926 --- [XNIO-2 task-60] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:21:33.898 DEBUG 16926 --- [XNIO-2 task-60] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:21:33.899 DEBUG 16926 --- [XNIO-2 task-60] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:21:33.900 DEBUG 16926 --- [XNIO-2 task-60] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:21:36.235 DEBUG 16926 --- [XNIO-2 task-17] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:21:36.367 DEBUG 16926 --- [XNIO-2 task-17] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:21:40.598 DEBUG 16926 --- [XNIO-2 task-27] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:22:34.659 DEBUG 16926 --- [XNIO-2 task-31] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:22:34.659 DEBUG 16926 --- [XNIO-2 task-31] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:22:34.660 DEBUG 16926 --- [XNIO-2 task-31] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:22:34.660 DEBUG 16926 --- [XNIO-2 task-31] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:22:39.596 DEBUG 16926 --- [XNIO-2 task-53] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:22:39.741 DEBUG 16926 --- [XNIO-2 task-53] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:22:48.243 DEBUG 16926 --- [XNIO-2 task-58] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:22:50.765  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:23:44.240 DEBUG 16926 --- [XNIO-2 task-62] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:23:44.240 DEBUG 16926 --- [XNIO-2 task-62] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:23:44.241 DEBUG 16926 --- [XNIO-2 task-62] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:23:44.241 DEBUG 16926 --- [XNIO-2 task-62] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:23:46.010 DEBUG 16926 --- [XNIO-2 task-24] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:23:46.143 DEBUG 16926 --- [XNIO-2 task-24] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:24:26.695 DEBUG 16926 --- [XNIO-2 task-28] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:24:50.729 DEBUG 16926 --- [XNIO-2 task-35] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:24:50.729 DEBUG 16926 --- [XNIO-2 task-35] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:24:50.730 DEBUG 16926 --- [XNIO-2 task-35] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:24:50.730 DEBUG 16926 --- [XNIO-2 task-35] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:24:52.547 DEBUG 16926 --- [XNIO-2 task-60] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:24:52.557  WARN 16926 --- [XNIO-2 task-60] o.s.c.n.z.filters.post.SendErrorFilter   : Error during filtering
+
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:191)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:166)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:981)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:873)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at io.github.jhipster.sample.security.jwt.JWTFilter.doFilter(JWTFilter.java:38)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:65)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:336)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: null
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:118)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:186)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	... 112 common frames omitted
+Caused by: java.lang.RuntimeException: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.42.7:8083 [/192.168.42.7] failed: Connexion refusée (Connection refused)
+	at rx.exceptions.Exceptions.propagate(Exceptions.java:57)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:463)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	... 174 common frames omitted
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.42.7:8083 [/192.168.42.7] failed: Connexion refusée (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:108)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:152)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:124)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at com.netflix.client.AbstractLoadBalancerAwareClient$1.call(AbstractLoadBalancerAwareClient.java:104)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:303)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:287)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:231)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:228)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.drain(OnSubscribeConcatMap.java:286)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.onNext(OnSubscribeConcatMap.java:144)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:185)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
+	... 176 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 210 common frames omitted
+
+2019-03-12 14:25:01.660 DEBUG 16926 --- [XNIO-2 task-1] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:25:01.660 DEBUG 16926 --- [XNIO-2 task-1] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:25:01.661 DEBUG 16926 --- [XNIO-2 task-1] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:25:01.661 DEBUG 16926 --- [XNIO-2 task-1] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:25:02.970 DEBUG 16926 --- [XNIO-2 task-28] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:25:03.109 DEBUG 16926 --- [XNIO-2 task-28] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:25:07.778 DEBUG 16926 --- [XNIO-2 task-31] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:27:10.910 DEBUG 16926 --- [XNIO-2 task-44] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:27:10.911 DEBUG 16926 --- [XNIO-2 task-44] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:27:10.912 DEBUG 16926 --- [XNIO-2 task-44] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:27:10.912 DEBUG 16926 --- [XNIO-2 task-44] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:27:12.659 DEBUG 16926 --- [XNIO-2 task-3] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:27:12.809 DEBUG 16926 --- [XNIO-2 task-3] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:27:50.765  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:28:14.942 DEBUG 16926 --- [XNIO-2 task-17] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:28:14.942 DEBUG 16926 --- [XNIO-2 task-17] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:28:14.943 DEBUG 16926 --- [XNIO-2 task-17] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:28:14.943 DEBUG 16926 --- [XNIO-2 task-17] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:28:18.357 DEBUG 16926 --- [XNIO-2 task-38] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:28:18.494 DEBUG 16926 --- [XNIO-2 task-38] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:28:42.058 DEBUG 16926 --- [XNIO-2 task-32] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:28:49.618 DEBUG 16926 --- [XNIO-2 task-35] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:29:00.648 DEBUG 16926 --- [XNIO-2 task-37] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:29:24.473 DEBUG 16926 --- [XNIO-2 task-43] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:29:30.680 DEBUG 16926 --- [XNIO-2 task-44] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:30:20.137 DEBUG 16926 --- [XNIO-2 task-53] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:30:20.138 DEBUG 16926 --- [XNIO-2 task-53] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:30:20.138 DEBUG 16926 --- [XNIO-2 task-53] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:30:20.139 DEBUG 16926 --- [XNIO-2 task-53] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:30:22.371 DEBUG 16926 --- [XNIO-2 task-11] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:30:22.510 DEBUG 16926 --- [XNIO-2 task-11] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:30:27.616 DEBUG 16926 --- [XNIO-2 task-9] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:30:52.268 DEBUG 16926 --- [XNIO-2 task-13] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:31:27.379 DEBUG 16926 --- [XNIO-2 task-26] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:31:27.379 DEBUG 16926 --- [XNIO-2 task-26] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:31:27.380 DEBUG 16926 --- [XNIO-2 task-26] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:31:27.380 DEBUG 16926 --- [XNIO-2 task-26] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:31:29.338 DEBUG 16926 --- [XNIO-2 task-46] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:31:29.485 DEBUG 16926 --- [XNIO-2 task-46] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:31:41.943 DEBUG 16926 --- [XNIO-2 task-54] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:32:50.766  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:33:40.967 DEBUG 16926 --- [XNIO-2 task-59] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with argument[s] = []
+2019-03-12 14:33:40.968 DEBUG 16926 --- [XNIO-2 task-59] i.g.j.sample.aop.logging.LoggingAspect   : Enter: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with argument[s] = []
+2019-03-12 14:33:40.969 DEBUG 16926 --- [XNIO-2 task-59] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.service.UserService.getUserWithAuthorities() with result = Optional[User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated='true', langKey='en', activationKey='null'}]
+2019-03-12 14:33:40.969 DEBUG 16926 --- [XNIO-2 task-59] i.g.j.sample.aop.logging.LoggingAspect   : Exit: io.github.jhipster.sample.web.rest.AccountResource.getAccount() with result = UserDTO{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', imageUrl='', activated=true, langKey='en', createdBy=system, createdDate=null, lastModifiedBy='system', lastModifiedDate=null, authorities=[ROLE_USER, ROLE_ADMIN]}
+2019-03-12 14:33:42.975 DEBUG 16926 --- [XNIO-2 task-64] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/v2/api-docs, as no access control policy has been set up for service: membre
+2019-03-12 14:33:43.127 DEBUG 16926 --- [XNIO-2 task-64] g.j.s.g.r.SwaggerBasePathRewritingFilter : Swagger-docs: rewritten Base URL with correct micro-service route: /membre
+2019-03-12 14:35:51.174 DEBUG 16926 --- [XNIO-2 task-12] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:36:06.406 DEBUG 16926 --- [XNIO-2 task-27] i.g.j.s.g.a.AccessControlFilter          : Access Control: allowing access for /membre/api/membres, as no access control policy has been set up for service: membre
+2019-03-12 14:37:50.767  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:39:51.507  INFO 16926 --- [hz.jhipsterSampleGateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13781 [dev] [3.9.4] processors=8, physical.memory.total=15,6G, physical.memory.free=169,0M, swap.space.total=16,0G, swap.space.free=16,0G, heap.memory.used=649,6M, heap.memory.free=903,4M, heap.memory.total=1,5G, heap.memory.max=3,5G, heap.memory.used/total=41,74%, heap.memory.used/max=18,23%, minor.gc.count=14, minor.gc.time=190ms, major.gc.count=4, major.gc.time=308ms, load.process=0,00%, load.system=100,00%, load.systemAverage=3,00, thread.count=160, thread.peakCount=162, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=984, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0,00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2019-03-12 14:42:50.767  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:47:50.768  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:52:50.769  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 14:57:50.769  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 15:02:50.770  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 15:07:50.771  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-12 15:12:50.771  INFO 16926 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

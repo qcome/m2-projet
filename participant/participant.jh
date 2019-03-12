@@ -1,0 +1,11 @@
+entity Participant{
+	id Long
+    idMembre Long
+    idSoiree Long
+    etatParticipation EtatParticipation
+    avis String
+}
+
+enum EtatParticipation{
+	OUI, NON, PEUTETRE
+}

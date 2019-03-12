@@ -1,0 +1,6 @@
+entity Soiree{
+	id Long
+    idMembreOrganisateur Long
+    nom String
+    description String
+}

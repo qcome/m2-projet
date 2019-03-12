@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "fr.orleans.miage"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "microservice",
+    "baseName": "participant",
+    "packageName": "fr.orleans.miage",
+    "packageFolder": "fr/orleans/miage",
+    "serverPort": "8085",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Mzk4MjRhYTkwM2QxOTU5Yjc5MmM1NmJhMjIxMWVhYjI2NDhjNzY1MzFhYmMzMDdjN2MwY2QxZTcxMGZlYTA1ZDRkNTA3NTFiMTRjZDNjNDczNjQ3ZWE2ODUyMzQ1OGVkZDhkNDJlNjU4NjM4NzMwYWI3MDRmYTQ3N2U2NTZmNWI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

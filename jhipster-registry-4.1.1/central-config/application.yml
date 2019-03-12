@@ -1,0 +1,26 @@
+# ===================================================================
+# JHipster Sample Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+    name: JHipster Registry config server
+    status: Connected to the JHipster Registry config server!
+
+# Default JWT secret token (to be changed in production!)
+jhipster:
+    security:
+        authentication:
+            jwt:
+                # It is recommended to encrypt the secret key in Base64, using the `base64-secret` property.
+                # For compabitibily issues with applications generated with older JHipster releases,
+                # we use the non Base64-encoded `secret` property here.
+                #base64-secret: 18E8868265CA2D25E93A40CB07B9879D7D025BFA3D146DDE17019A2EAC7CE01E
+                # The `base64-secret` property is recommended if you use JHipster v5.3.0+
+                # (you can type `echo 'secret-key'|base64` on your command line)
+                base64-secret: MThFODg2ODI2NUNBMkQyNUU5M0E0MENCMDdCOTg3OUQ3RDAyNUJGQTNEMTQ2RERFMTcwMTlBMkVBQzdDRTAxRQo=
+
+# Enable /management/logfile endpoint for all apps
+logging:
+    path: /tmp
+    file: ${spring.application.name}.log

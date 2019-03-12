@@ -1,0 +1,5 @@
+entity EvenementSoiree{
+	id Long
+    idEvenement Long
+    idSoiree Long
+}

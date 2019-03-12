@@ -1,0 +1,24 @@
+{
+    "name": "EvenementSoiree",
+    "fields": [
+        {
+            "fieldName": "idEvenement",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "idSoiree",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190312131136",
+    "entityTableName": "evenement_soiree",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "evenementSoiree",
+    "applications": "*",
+    "microserviceName": "evenementSoiree"
+}

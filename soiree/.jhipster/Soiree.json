@@ -1,0 +1,28 @@
+{
+    "name": "Soiree",
+    "fields": [
+        {
+            "fieldName": "idMembreOrganisateur",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190312133925",
+    "entityTableName": "soiree",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "soiree",
+    "applications": "*",
+    "microserviceName": "soiree"
+}
