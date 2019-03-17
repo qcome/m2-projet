@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableFeignClients(basePackages = "fr.orleans.miage")
+@EnableFeignClients(basePackages = "fr.orleans.miage.feign")
 public class FeignConfiguration {
 
     /**

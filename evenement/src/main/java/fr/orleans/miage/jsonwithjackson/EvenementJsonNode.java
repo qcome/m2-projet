@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import fr.orleans.miage.domain.EvenementGlobal;
+import fr.orleans.miage.domain.EvenementAgglo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,8 +30,8 @@ public class EvenementJsonNode {
 
     }
 
-    public List<EvenementGlobal> getAllEventsWithJsonNode() throws IOException {
-        jsonUrl = new URL("https://data.orleans-metropole.fr/api/records/1.0/search/?dataset=evenements-publics-openagenda&rows=100");
+    public List<EvenementAgglo> getAllEventsWithJsonNode() throws IOException {
+        jsonUrl = new URL("https://data.orleans-metropole.fr/api/records/1.0/search/?dataset=evenements-publics-openagenda&rows=3");
         rootNode = objectMapper.readTree(jsonUrl);
         JsonNode events = rootNode.get("records");
         Iterator<JsonNode> eventsIterator = events.elements();
@@ -41,8 +41,8 @@ public class EvenementJsonNode {
             myEventsNode.add(event.get("fields"));
         }
         //logger.info("\n----------------------------\n"+myEventsNode.toString());
-        List<EvenementGlobal> myEvents = Arrays.asList(objectMapper.readValue(myEventsNode.traverse(), EvenementGlobal[].class));
-        for(EvenementGlobal evenementGlobal : myEvents){
+        List<EvenementAgglo> myEvents = Arrays.asList(objectMapper.readValue(myEventsNode.traverse(), EvenementAgglo[].class));
+        for(EvenementAgglo evenementGlobal : myEvents){
             logger.info("\n----------------------------\n"+ evenementGlobal.toString());
         }
 

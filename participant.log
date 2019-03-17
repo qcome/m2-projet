@@ -1,0 +1,208 @@
+2019-03-15 18:05:04.589  INFO 8507 --- [restartedMain] fr.orleans.miage.ParticipantApp          : The following profiles are active: swagger,dev
+2019-03-15 18:05:05.846 DEBUG 8507 --- [restartedMain] f.o.miage.config.AsyncConfiguration      : Creating Async Task Executor
+2019-03-15 18:05:06.662  WARN 8507 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-15 18:05:07.644  INFO 8507 --- [restartedMain] fr.orleans.miage.config.WebConfigurer    : Web application configuration, using profiles: swagger
+2019-03-15 18:05:07.645 DEBUG 8507 --- [restartedMain] fr.orleans.miage.config.WebConfigurer    : Initialize H2 console
+2019-03-15 18:05:07.648  INFO 8507 --- [restartedMain] fr.orleans.miage.config.WebConfigurer    : Web application fully configured
+2019-03-15 18:05:07.718 DEBUG 8507 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Configuring Hazelcast
+2019-03-15 18:05:07.757 DEBUG 8507 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Configuring Hazelcast clustering for instanceId: participant
+2019-03-15 18:05:07.758 DEBUG 8507 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Application is running with the "dev" profile, Hazelcast cluster will only work with localhost instances
+2019-03-15 18:05:07.786  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-15 18:05:07.876  INFO 8507 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-15 18:05:07.876  INFO 8507 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-15 18:05:07.943  INFO 8507 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-15 18:05:07.943  INFO 8507 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-15 18:05:08.052  INFO 8507 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:05:08.064  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-15 18:05:08.064  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-15 18:05:08.064  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-15 18:05:08.064  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-15 18:05:08.064  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-15 18:05:08.064  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-15 18:05:08.064  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-15 18:05:08.215  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-15 18:05:08.217  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2019-03-15 18:05:08.218  INFO 8507 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2019-03-15 18:05:08.221  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1552669508220 with initial instances count: 5
+2019-03-15 18:05:08.253  INFO 8507 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [3.9.4] Picked [127.0.0.1]:13786, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=13786], bind any local is true
+2019-03-15 18:05:08.258  INFO 8507 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13786 [dev] [3.9.4] Hazelcast 3.9.4 (20180420 - b8001d5) starting at [127.0.0.1]:13786
+2019-03-15 18:05:08.258  INFO 8507 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13786 [dev] [3.9.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+2019-03-15 18:05:08.258  INFO 8507 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13786 [dev] [3.9.4] Configured Hazelcast Serialization version: 1
+2019-03-15 18:05:08.370  INFO 8507 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [127.0.0.1]:13786 [dev] [3.9.4] Backpressure is disabled
+2019-03-15 18:05:08.810  INFO 8507 --- [restartedMain] com.hazelcast.instance.Node              : [127.0.0.1]:13786 [dev] [3.9.4] Creating TcpIpJoiner
+2019-03-15 18:05:08.890  INFO 8507 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [127.0.0.1]:13786 [dev] [3.9.4] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2019-03-15 18:05:08.909  INFO 8507 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [127.0.0.1]:13786 [dev] [3.9.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2019-03-15 18:05:08.914  INFO 8507 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13786 [dev] [3.9.4] [127.0.0.1]:13786 is STARTING
+2019-03-15 18:05:08.925  INFO 8507 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13786 [dev] [3.9.4] Cluster version set to 3.9
+2019-03-15 18:05:08.925  INFO 8507 --- [restartedMain] c.h.internal.cluster.ClusterService      : [127.0.0.1]:13786 [dev] [3.9.4] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:13786 - 2e3d3742-ceb2-443f-a7de-5a5f9c51fd80 this
+]
+
+2019-03-15 18:05:08.937  INFO 8507 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13786 [dev] [3.9.4] [127.0.0.1]:13786 is STARTED
+2019-03-15 18:05:08.950 DEBUG 8507 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Starting HazelcastCacheManager
+2019-03-15 18:05:09.035 DEBUG 8507 --- [restartedMain] f.o.miage.config.LiquibaseConfiguration  : Configuring Liquibase
+2019-03-15 18:05:09.134  WARN 8507 --- [participant-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2019-03-15 18:05:09.585  INFO 8507 --- [restartedMain] c.h.h.HazelcastCacheRegionFactory        : Starting up HazelcastCacheRegionFactory
+2019-03-15 18:05:09.586  INFO 8507 --- [restartedMain] c.h.h.i.IHazelcastInstanceFactory        : Using existing HazelcastInstance [participant].
+2019-03-15 18:05:09.602 DEBUG 8507 --- [participant-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 468 ms
+2019-03-15 18:05:09.767 DEBUG 8507 --- [restartedMain] f.o.miage.security.jwt.TokenProvider     : Using a Base64-encoded JWT secret key
+2019-03-15 18:05:11.032 DEBUG 8507 --- [restartedMain] f.o.miage.config.DatabaseConfiguration   : H2 database is available on port 18085
+2019-03-15 18:05:11.308  WARN 8507 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-15 18:05:11.631 DEBUG 8507 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2019-03-15 18:05:11.638 DEBUG 8507 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 5 ms
+2019-03-15 18:05:11.851  INFO 8507 --- [restartedMain] c.h.i.p.impl.PartitionStateManager       : [127.0.0.1]:13786 [dev] [3.9.4] Initializing cluster partition table arrangement...
+2019-03-15 18:05:12.214  INFO 8507 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1552669512214, current=UP, previous=STARTING]
+2019-03-15 18:05:12.215  INFO 8507 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PARTICIPANT/participant:62aea9ca75d460eebf3f5dbd48bc7f21: registering service...
+2019-03-15 18:05:12.296  INFO 8507 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PARTICIPANT/participant:62aea9ca75d460eebf3f5dbd48bc7f21 - registration status: 204
+2019-03-15 18:05:12.381  INFO 8507 --- [restartedMain] fr.orleans.miage.ParticipantApp          : Started ParticipantApp in 9.511 seconds (JVM running for 10.096)
+2019-03-15 18:05:12.387  INFO 8507 --- [restartedMain] fr.orleans.miage.ParticipantApp          : 
+----------------------------------------------------------
+	Application 'participant' is running! Access URLs:
+	Local: 		http://localhost:8085/
+	External: 	http://127.0.1.1:8085/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2019-03-15 18:05:12.387  INFO 8507 --- [restartedMain] fr.orleans.miage.ParticipantApp          : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2019-03-15 18:10:08.065  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:15:08.066  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:20:08.066  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:25:08.067  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:30:08.068  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:35:08.068  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:40:08.069  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:45:08.070  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:50:08.070  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:55:08.071  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:00:08.071  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:05:08.078  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:10:08.078  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:15:08.079  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:20:08.080  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:25:08.080  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:30:08.081  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:35:08.082  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:40:08.084  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:45:08.086  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:50:08.086  INFO 8507 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:50:44.181 ERROR 8507 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connexion refusée (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 26 common frames omitted
+
+2019-03-15 19:50:44.183  WARN 8507 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connexion refusée (Connection refused)
+2019-03-15 19:50:44.185 ERROR 8507 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connexion refusée (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+
+2019-03-15 19:50:44.186  WARN 8507 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connexion refusée (Connection refused)
+2019-03-15 19:50:44.188 ERROR 8507 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PARTICIPANT/participant:62aea9ca75d460eebf3f5dbd48bc7f21 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+

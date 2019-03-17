@@ -1,0 +1,104 @@
+2019-03-15 18:04:19.425  INFO 7533 --- [restartedMain] fr.orleans.miage.SoireeApp               : The following profiles are active: swagger,dev
+2019-03-15 18:04:21.724 DEBUG 7533 --- [restartedMain] f.o.miage.config.AsyncConfiguration      : Creating Async Task Executor
+2019-03-15 18:04:22.918  WARN 7533 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-15 18:04:24.728  INFO 7533 --- [restartedMain] fr.orleans.miage.config.WebConfigurer    : Web application configuration, using profiles: swagger
+2019-03-15 18:04:24.730 DEBUG 7533 --- [restartedMain] fr.orleans.miage.config.WebConfigurer    : Initialize H2 console
+2019-03-15 18:04:24.733  INFO 7533 --- [restartedMain] fr.orleans.miage.config.WebConfigurer    : Web application fully configured
+2019-03-15 18:04:24.884 DEBUG 7533 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Configuring Hazelcast
+2019-03-15 18:04:24.961 DEBUG 7533 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Configuring Hazelcast clustering for instanceId: soiree
+2019-03-15 18:04:24.961 DEBUG 7533 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Application is running with the "dev" profile, Hazelcast cluster will only work with localhost instances
+2019-03-15 18:04:25.074  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-15 18:04:25.328  INFO 7533 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-15 18:04:25.329  INFO 7533 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-15 18:04:25.552  INFO 7533 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-15 18:04:25.552  INFO 7533 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-15 18:04:25.739  INFO 7533 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:04:25.755  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-15 18:04:25.755  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-15 18:04:25.755  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-15 18:04:25.755  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-15 18:04:25.755  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-15 18:04:25.755  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-15 18:04:25.755  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-15 18:04:25.915  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-15 18:04:25.917  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2019-03-15 18:04:25.920  INFO 7533 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2019-03-15 18:04:25.924  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1552669465923 with initial instances count: 0
+2019-03-15 18:04:25.963  INFO 7533 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [3.9.4] Picked [127.0.0.1]:13785, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=13785], bind any local is true
+2019-03-15 18:04:25.969  INFO 7533 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13785 [dev] [3.9.4] Hazelcast 3.9.4 (20180420 - b8001d5) starting at [127.0.0.1]:13785
+2019-03-15 18:04:25.969  INFO 7533 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13785 [dev] [3.9.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+2019-03-15 18:04:25.969  INFO 7533 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13785 [dev] [3.9.4] Configured Hazelcast Serialization version: 1
+2019-03-15 18:04:26.117  INFO 7533 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [127.0.0.1]:13785 [dev] [3.9.4] Backpressure is disabled
+2019-03-15 18:04:26.696  INFO 7533 --- [restartedMain] com.hazelcast.instance.Node              : [127.0.0.1]:13785 [dev] [3.9.4] Creating TcpIpJoiner
+2019-03-15 18:04:26.777  INFO 7533 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [127.0.0.1]:13785 [dev] [3.9.4] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2019-03-15 18:04:26.789  INFO 7533 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [127.0.0.1]:13785 [dev] [3.9.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2019-03-15 18:04:26.795  INFO 7533 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13785 [dev] [3.9.4] [127.0.0.1]:13785 is STARTING
+2019-03-15 18:04:26.811  INFO 7533 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13785 [dev] [3.9.4] Cluster version set to 3.9
+2019-03-15 18:04:26.812  INFO 7533 --- [restartedMain] c.h.internal.cluster.ClusterService      : [127.0.0.1]:13785 [dev] [3.9.4] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:13785 - be6bf48a-df7b-4083-809a-d4c1dd5f3af7 this
+]
+
+2019-03-15 18:04:26.829  INFO 7533 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13785 [dev] [3.9.4] [127.0.0.1]:13785 is STARTED
+2019-03-15 18:04:26.846 DEBUG 7533 --- [restartedMain] f.o.miage.config.CacheConfiguration      : Starting HazelcastCacheManager
+2019-03-15 18:04:26.947 DEBUG 7533 --- [restartedMain] f.o.miage.config.LiquibaseConfiguration  : Configuring Liquibase
+2019-03-15 18:04:27.081  WARN 7533 --- [soiree-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2019-03-15 18:04:27.775  INFO 7533 --- [restartedMain] c.h.h.HazelcastCacheRegionFactory        : Starting up HazelcastCacheRegionFactory
+2019-03-15 18:04:27.777  INFO 7533 --- [restartedMain] c.h.h.i.IHazelcastInstanceFactory        : Using existing HazelcastInstance [soiree].
+2019-03-15 18:04:27.809 DEBUG 7533 --- [soiree-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 727 ms
+2019-03-15 18:04:28.053 DEBUG 7533 --- [restartedMain] f.o.miage.security.jwt.TokenProvider     : Using a Base64-encoded JWT secret key
+2019-03-15 18:04:29.650 DEBUG 7533 --- [restartedMain] f.o.miage.config.DatabaseConfiguration   : H2 database is available on port 18084
+2019-03-15 18:04:29.956  WARN 7533 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-15 18:04:30.323 DEBUG 7533 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2019-03-15 18:04:30.331 DEBUG 7533 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 8 ms
+2019-03-15 18:04:30.571  INFO 7533 --- [restartedMain] c.h.i.p.impl.PartitionStateManager       : [127.0.0.1]:13785 [dev] [3.9.4] Initializing cluster partition table arrangement...
+2019-03-15 18:04:30.964  INFO 7533 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1552669470964, current=UP, previous=STARTING]
+2019-03-15 18:04:30.965  INFO 7533 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SOIREE/soiree:b6c7e9b5a38c6ce54fa26be1fefb5292: registering service...
+2019-03-15 18:04:31.000  INFO 7533 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SOIREE/soiree:b6c7e9b5a38c6ce54fa26be1fefb5292 - Re-registering apps/SOIREE
+2019-03-15 18:04:31.000  INFO 7533 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SOIREE/soiree:b6c7e9b5a38c6ce54fa26be1fefb5292: registering service...
+2019-03-15 18:04:31.050  INFO 7533 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SOIREE/soiree:b6c7e9b5a38c6ce54fa26be1fefb5292 - registration status: 204
+2019-03-15 18:04:31.073  INFO 7533 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SOIREE/soiree:b6c7e9b5a38c6ce54fa26be1fefb5292 - registration status: 204
+2019-03-15 18:04:31.143  INFO 7533 --- [restartedMain] fr.orleans.miage.SoireeApp               : Started SoireeApp in 13.833 seconds (JVM running for 14.464)
+2019-03-15 18:04:31.149  INFO 7533 --- [restartedMain] fr.orleans.miage.SoireeApp               : 
+----------------------------------------------------------
+	Application 'soiree' is running! Access URLs:
+	Local: 		http://localhost:8084/
+	External: 	http://127.0.1.1:8084/
+	Profile(s): 	[swagger, dev]
+----------------------------------------------------------
+2019-03-15 18:04:31.149  INFO 7533 --- [restartedMain] fr.orleans.miage.SoireeApp               : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2019-03-15 18:04:35.917  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-15 18:04:35.918  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-15 18:04:35.918  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-15 18:04:35.918  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-15 18:04:35.918  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-15 18:04:35.918  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-03-15 18:04:35.918  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-15 18:04:36.006  INFO 7533 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-15 18:09:25.757  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:14:25.758  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:19:25.759  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:24:25.760  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:29:25.760  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:34:25.761  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:39:25.762  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:44:25.763  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:49:25.763  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:54:25.764  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 18:59:25.765  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:04:25.772  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:09:25.773  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:14:25.774  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:19:25.774  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:24:25.775  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:29:25.776  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:34:25.776  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:39:25.782  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:44:25.785  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:49:25.785  INFO 7533 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-15 19:50:42.157  INFO 7533 --- [hz.ShutdownThread] com.hazelcast.instance.Node              : [127.0.0.1]:13785 [dev] [3.9.4] Running shutdown hook... Current state: ACTIVE
+2019-03-15 19:50:42.157  INFO 7533 --- [hz.ShutdownThread] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13785 [dev] [3.9.4] [127.0.0.1]:13785 is SHUTTING_DOWN

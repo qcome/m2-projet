@@ -1,11 +1,13 @@
 package fr.orleans.miage.web.rest;
 import fr.orleans.miage.domain.Participant;
+import fr.orleans.miage.feign.ParticipantClient;
 import fr.orleans.miage.repository.ParticipantRepository;
 import fr.orleans.miage.web.rest.errors.BadRequestAlertException;
 import fr.orleans.miage.web.rest.util.HeaderUtil;
 import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,6 +29,8 @@ public class ParticipantResource {
     private static final String ENTITY_NAME = "participantParticipant";
 
     private final ParticipantRepository participantRepository;
+
+
 
     public ParticipantResource(ParticipantRepository participantRepository) {
         this.participantRepository = participantRepository;
@@ -82,6 +86,12 @@ public class ParticipantResource {
         log.debug("REST request to get all Participants");
         return participantRepository.findAll();
     }
+
+    @GetMapping("/participants/soiree/{idSoiree")
+    public Participant getParticipantBySoiree(){
+        return null;
+    }
+
 
     /**
      * GET  /participants/:id : get the "id" participant.
